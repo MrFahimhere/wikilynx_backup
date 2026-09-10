@@ -1,4 +1,4 @@
-import { supabase } from './lib/supabase/client.ts';
+import { supabase } from './lib/supabase/client';
 
 async function testConnection() {
   console.log('--- Supabase Client Initialization & Connection Test ---');
